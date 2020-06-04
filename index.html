@@ -12,68 +12,71 @@
     <div class="container">
       <h1>Survey</h1>
 
-      <!-- Name [Text] -->
-      <div>
-        <form id="userName">
-          <div class="form-group">
-            <label for="firstName">First Name:</label>
-            <input id="firstName" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="lastName">Last Name:</label>
-            <input id="lastName" class="form-control" type="text">
-          </div>
-        </form>
-      </div>
+      <form id="survey">
 
-      <!-- Date of Birth [Date] -->
-      <div class="form-group">
-        <label for="born">Date of Birth:</label>
-        <input id="born" class="form-control" type="date">
-      </div>
+        <!-- Name [Text] -->
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input id="firstName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input id="lastName" class="form-control" type="text">
+        </div>
 
-      <!-- Favorite Foods [Drop-down] -->
-      <p>Favorite Food:</p>
-      <div>
-        <select class="form-control" id="favFood">
-          <option>Italian</option>
-          <option>Mexican</option>
-          <option>Chinese</option>
-          <option>Thai</option>
-          <option>Japanese</option>
-        </select>
-      </div>
-      
-      <!-- Favorite Music [Radio] -->
-      <p>Favorite Music:</p>
-      <div class="radio">
-        <label>
-          <input type="radio" name="favMusic" value="Rock" checked>
-          Rock
-        </label>
-        <label>
-          <input type="radio" name="favMusic" value="Rap">
-          Rap
-        </label>
-        <label>
-          <input type="radio" name="favMusic" value="R&amp;B">
-          R&amp;B
-        </label>
-        <label>
-          <input type="radio" name="favMusic" value="Country">
-          Country
-        </label>
-        <label>
-          <input type="radio" name="favMusic" value="Classical">
-          Classical
-        </label>
-      </div>
 
-      <!-- Favorite Color [Color] -->
-      <div class="form-group">
-        <label for="color">Favorite Color:</label>
-        <input id="color" class="form-control" type="color">
-      </div>
+        <!-- Date of Birth [Date] -->
+        <div class="form-group">
+          <label for="born">Date of Birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+
+        <!-- Favorite Foods [Drop-down] -->
+        <p>Favorite Food:</p>
+        <div>
+          <select class="form-control" id="favFood">
+            <option>Italian</option>
+            <option>Mexican</option>
+            <option>Chinese</option>
+            <option>Thai</option>
+            <option>Japanese</option>
+          </select>
+        </div>
+        
+        <!-- Favorite Music [Radio] -->
+        <p>Favorite Music:</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="favMusic" value="Rock" checked>
+            Rock
+          </label>
+          <label>
+            <input type="radio" name="favMusic" value="Rap">
+            Rap
+          </label>
+          <label>
+            <input type="radio" name="favMusic" value="R&amp;B">
+            R&amp;B
+          </label>
+          <label>
+            <input type="radio" name="favMusic" value="Country">
+            Country
+          </label>
+          <label>
+            <input type="radio" name="favMusic" value="Classical">
+            Classical
+          </label>
+        </div>
+
+        <!-- Favorite Color [Color] -->
+        <div class="form-group">
+          <label for="color">Favorite Color:</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+
+      </form>
     </div>
   </body>
 </html>
